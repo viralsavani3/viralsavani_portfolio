@@ -36,7 +36,7 @@ const SocialLinks = () => {
         <Button
           
           href={socialLinks.github}
-          className="m-1 p-2 bg-secondary border-secondary text-black"
+          className="m-1 p-2 bg-white border-white text-black"
           target="_blank"
         >
           <FaGithub size={24}  />

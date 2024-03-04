@@ -35,7 +35,7 @@ const Greetings = () => {
                   {greetings.resumeLink && (
                     <div className="btn-wrapper my-4">
                       <Button
-                        className="p-3 mb-3 mb-sm-0 ml-1 bg-white text-black"
+                        className="p-3 mb-3 mb-sm-0 ml-1 bg-white text-black font-weight-bold"
                        
                         href={greetings.resumeLink}
                       >
