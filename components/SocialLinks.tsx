@@ -17,50 +17,50 @@ const SocialLinks = () => {
          
           href={socialLinks.email}
           target="_blank"
-          className="m-1 p-2"
+          className="m-1 p-2 bg-danger border-danger text-white"
         >
-          <BiLogoGmail size={24} className="btn-inner--icon" />
+          <BiLogoGmail size={24}  />
         </Button>
       )}
       {socialLinks.linkedin && (
         <Button
-        className="m-1 p-2"
+        className="m-1 p-2 bg-primary border-primary text-white"
         target="_blank"
           href={socialLinks.linkedin}
          
         >
-          <FaLinkedinIn size={24} className="btn-inner--icon" />
+          <FaLinkedinIn size={24}  />
         </Button>
       )}
       {socialLinks.github && (
         <Button
           
           href={socialLinks.github}
-          className="m-1 p-2"
+          className="m-1 p-2 bg-secondary border-secondary text-black"
           target="_blank"
         >
-          <FaGithub size={24} className="btn-inner--icon" />
+          <FaGithub size={24}  />
         </Button>
       )}
       {socialLinks.instagram && (
         <Button
-        className="m-1 p-2"
+        className="m-1 p-2 bg-danger border-danger text-white"
         target="_blank"
           href={socialLinks.instagram}
          
         >
-          <FaInstagram size={24} className="btn-inner--icon" />
+          <FaInstagram size={24}  />
         </Button>
       )}
       {socialLinks.facebook && (
         <Button
-        className="m-1 p-2"
+        className="m-1 p-2 bg-primary border-primary text-white"
         target="_blank"
           href={socialLinks.facebook}
           
          
         >
-          <FaFacebookF size={24} className="btn-inner--icon" />
+          <FaFacebookF size={24}  />
         </Button>
       )}
       {socialLinks.twitter && (
@@ -72,7 +72,7 @@ const SocialLinks = () => {
           rel="noopener"
           aria-label="Twitter"
         >
-          <span className="btn-inner--icon">
+          <span >
             <i className="fa fa-twitter" />
           </span>
         </Button>
