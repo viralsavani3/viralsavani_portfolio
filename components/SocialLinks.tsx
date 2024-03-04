@@ -1,6 +1,13 @@
 import React from "react";
 import { Button } from "reactstrap";
 import { socialLinks } from "../portfolio";
+import { BiLogoGmail } from "react-icons/bi";
+import {
+  FaLinkedinIn,
+  FaGithub,
+  FaInstagram,
+  FaFacebookF,
+} from "react-icons/fa";
 
 const SocialLinks = () => {
   return (
@@ -11,12 +18,10 @@ const SocialLinks = () => {
           color="white"
           rel="noopener"
           aria-label="URL"
-          href={socialLinks.url}
+          href={socialLinks.email}
           target="_blank"
         >
-          <span className="btn-inner--icon">
-            <i className="fa fa-envelope fa-lg" />
-          </span>
+          <BiLogoGmail size={24} className="btn-inner--icon" />
         </Button>
       )}
       {socialLinks.linkedin && (
@@ -28,9 +33,7 @@ const SocialLinks = () => {
           href={socialLinks.linkedin}
           target="_blank"
         >
-          <span className="btn-inner--icon">
-            <i className="fa fa-linkedin fa-lg" />
-          </span>
+          <FaLinkedinIn size={24} className="btn-inner--icon" />
         </Button>
       )}
       {socialLinks.github && (
@@ -42,9 +45,7 @@ const SocialLinks = () => {
           aria-label="Github"
           target="_blank"
         >
-          <span className="btn-inner--icon">
-            <i className="fa fa-github fa-lg" />
-          </span>
+          <FaGithub size={24} className="btn-inner--icon" />
         </Button>
       )}
       {socialLinks.instagram && (
@@ -56,9 +57,7 @@ const SocialLinks = () => {
           rel="noopener"
           aria-label="Instagram"
         >
-          <span className="btn-inner--icon">
-            <i className="fa fa-instagram fa-lg" />
-          </span>
+          <FaInstagram size={24} className="btn-inner--icon" />
         </Button>
       )}
       {socialLinks.facebook && (
@@ -70,9 +69,7 @@ const SocialLinks = () => {
           rel="noopener"
           aria-label="Facebook"
         >
-          <span className="btn-inner--icon">
-            <i className="fa fa-facebook-square fa-lg" />
-          </span>
+          <FaFacebookF size={24} className="btn-inner--icon" />
         </Button>
       )}
       {socialLinks.twitter && (

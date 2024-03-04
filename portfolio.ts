@@ -2,7 +2,6 @@ import emoji from "react-easy-emoji";
 import {
   EducationType,
   ExperienceType,
-  FeedbackType,
   ProjectType,
   SkillsSectionType,
   SkillBarsType,
@@ -27,7 +26,7 @@ export const contact = {};
 
 export const socialLinks: SocialLinksType = {
   email: "mailto:gabaniviral3@gmail.com",
-  linkedin: "https://www.linkedin.com/in/viralsavani3",
+  linkedin: "https://www.linkedin.com/in/viralsavani3/",
   github: "https://github.com/viralsavani3",
   instagram: "https://www.instagram.com/vini_savani",
   facebook: "https://www.facebook.com/gabani.viral",
