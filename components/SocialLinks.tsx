@@ -14,35 +14,29 @@ const SocialLinks = () => {
     <div className="btn-wrapper text-lg">
       {socialLinks.email && (
         <Button
-          className="btn-icon-only rounded-circle ml-1"
-          color="white"
-          rel="noopener"
-          aria-label="URL"
+         
           href={socialLinks.email}
           target="_blank"
+          className="m-1 p-2"
         >
           <BiLogoGmail size={24} className="btn-inner--icon" />
         </Button>
       )}
       {socialLinks.linkedin && (
         <Button
-          className="btn-icon-only rounded-circle ml-1"
-          color="twitter"
-          rel="noopener"
-          aria-label="Linkedin"
+        className="m-1 p-2"
+        target="_blank"
           href={socialLinks.linkedin}
-          target="_blank"
+         
         >
           <FaLinkedinIn size={24} className="btn-inner--icon" />
         </Button>
       )}
       {socialLinks.github && (
         <Button
-          className="btn-icon-only rounded-circle ml-1"
-          color="github"
+          
           href={socialLinks.github}
-          rel="noopener"
-          aria-label="Github"
+          className="m-1 p-2"
           target="_blank"
         >
           <FaGithub size={24} className="btn-inner--icon" />
@@ -50,24 +44,21 @@ const SocialLinks = () => {
       )}
       {socialLinks.instagram && (
         <Button
-          className="btn-icon-only rounded-circle ml-1"
-          color="instagram"
+        className="m-1 p-2"
+        target="_blank"
           href={socialLinks.instagram}
-          target="_blank"
-          rel="noopener"
-          aria-label="Instagram"
+         
         >
           <FaInstagram size={24} className="btn-inner--icon" />
         </Button>
       )}
       {socialLinks.facebook && (
         <Button
-          className="btn-icon-only rounded-circle ml-1"
-          color="facebook"
+        className="m-1 p-2"
+        target="_blank"
           href={socialLinks.facebook}
-          target="_blank"
-          rel="noopener"
-          aria-label="Facebook"
+          
+         
         >
           <FaFacebookF size={24} className="btn-inner--icon" />
         </Button>
